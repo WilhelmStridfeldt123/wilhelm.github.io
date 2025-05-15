@@ -29,25 +29,18 @@ body, html {
     background: var(--light-green);
 }
 
-.nytida-header.merged {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: transparent;
+.nytida-header {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 2rem 2rem 0 2rem;
-    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 0 1.5rem 0;
+    background: var(--light-green);
 }
 
 .nytida-logo-large {
-    height: 140px;
-    width: 140px;
+    height: 90px;
+    width: 90px;
     object-fit: contain;
-    background: none;
-    box-shadow: none;
 }
 
 .hero-full-bg {
